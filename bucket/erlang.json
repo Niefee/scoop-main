@@ -1,19 +1,19 @@
 {
-    "version": "25.2.2",
+    "version": "26.0.1",
     "description": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
     "homepage": "https://www.erlang.org",
     "license": "Apache-2.0",
     "suggest": {
-        "Visual C/C++ Redistributable 2013": "extras/vcredist2013"
+        "vcredist": "extras/vcredist2013"
     },
     "architecture": {
         "64bit": {
-            "url": "https://erlang.org/download/otp_win64_25.2.2.exe#/dl.7z",
-            "hash": "898673959502a8b81d0335bab41cea840f23ecbe87e76910fc2106b1004c5250"
+            "url": "https://github.com/erlang/otp/releases/download/OTP-26.0.1/otp_win64_26.0.1.exe#/dl.7z",
+            "hash": "f717657c07fddae64fc67749758b20701a2461451872e38f54f0483d1958467a"
         },
         "32bit": {
-            "url": "https://erlang.org/download/otp_win32_25.2.2.exe#/dl.7z",
-            "hash": "f45f89f548ec6b2ded9ec15aa31bd572c3016e642ebee13f9bee6bf722684eb6"
+            "url": "https://github.com/erlang/otp/releases/download/OTP-26.0.1/otp_win32_26.0.1.exe#/dl.7z",
+            "hash": "cfae449ce0f68d63bdffc4726b8b2cff0b2c398dbeea67ea18d5df81b9b04b20"
         }
     },
     "installer": {
@@ -43,10 +43,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://erlang.org/download/otp_win64_$version.exe#/dl.7z"
+                "url": "https://github.com/erlang/otp/releases/download/OTP-$version/otp_win64_$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://erlang.org/download/otp_win32_$version.exe#/dl.7z"
+                "url": "https://github.com/erlang/otp/releases/download/OTP-$version/otp_win32_$version.exe#/dl.7z"
             }
         }
     }

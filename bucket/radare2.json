@@ -1,18 +1,18 @@
 {
-    "version": "5.8.2",
+    "version": "5.8.8",
     "description": "UNIX-like reverse engineering framework and command-line toolset",
     "homepage": "https://www.radare.org/n/radare2.html",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/radareorg/radare2/releases/download/5.8.2/radare2-5.8.2-w64.zip",
-            "hash": "b998866ffeca5b6c716a09766dc8a0d66035147287dd87fded976392df115576",
-            "extract_dir": "radare2-5.8.2-w64"
+            "url": "https://github.com/radareorg/radare2/releases/download/5.8.8/radare2-5.8.8-w64.zip",
+            "hash": "aa94bde159d57b11b461a1f3e0b8133c0e3a3b9776ddd1d682ea0007196e28d4",
+            "extract_dir": "radare2-5.8.8-w64"
         },
         "32bit": {
-            "url": "https://github.com/radareorg/radare2/releases/download/5.8.2/radare2-5.8.2-w32.zip",
-            "hash": "b9604d8960cfb5580e513c0055d48ab39be38ddbab19fe7176857a17ff29003b",
-            "extract_dir": "radare2-5.8.2-w32"
+            "url": "https://github.com/radareorg/radare2/releases/download/5.8.8/radare2-5.8.8-w32.zip",
+            "hash": "34b0377dc76040abf421a687f29d10195739f27ec3df7976946238cc43d4af5f",
+            "extract_dir": "radare2-5.8.8-w32"
         }
     },
     "bin": [

@@ -1,5 +1,5 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.7",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "license": "MIT",
@@ -10,8 +10,8 @@
             "main/php-nts"
         ]
     },
-    "url": "https://getcomposer.org/download/2.5.1/composer.phar",
-    "hash": "f1b94fee11a5bd6a1aae5d77c8da269df27c705fcc806ebf4c8c2e6fa8645c20",
+    "url": "https://getcomposer.org/download/2.5.7/composer.phar",
+    "hash": "9256c4c1c803b9d0cb7a66a1ab6c737e48c43cc6df7b8ec9ec2497a724bf44de",
     "pre_install": [
         "@(",
         "    'if ($args.length -eq 1 -and ($args -eq \"selfupdate\" -or $args -eq \"self-update\")) { & scoop update composer }'",

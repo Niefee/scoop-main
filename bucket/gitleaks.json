@@ -1,16 +1,16 @@
 {
-    "version": "8.15.3",
+    "version": "8.16.4",
     "description": "SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos",
     "homepage": "https://gitleaks.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zricethezav/gitleaks/releases/download/v8.15.3/gitleaks_8.15.3_windows_x64.zip",
-            "hash": "037883692db8635a93ed31043b5a7c5ed86c8da58f16800d922e39a2fad3be25"
+            "url": "https://github.com/zricethezav/gitleaks/releases/download/v8.16.4/gitleaks_8.16.4_windows_x64.zip",
+            "hash": "5a5ff00a72113525e8ce29b12c9d52548f72b0c6df5678ddde2b317e66ef6693"
         },
         "32bit": {
-            "url": "https://github.com/zricethezav/gitleaks/releases/download/v8.15.3/gitleaks_8.15.3_windows_x32.zip",
-            "hash": "c5da062ab4226f2038338b214b3ff0db145266004887d227105ab3ee12c0c6da"
+            "url": "https://github.com/zricethezav/gitleaks/releases/download/v8.16.4/gitleaks_8.16.4_windows_x32.zip",
+            "hash": "fb2a95d4ce70bd5bd91c8fb4919aa884fd0665938675b64e8a1f748ac0c61d51"
         }
     },
     "bin": "gitleaks.exe",

@@ -1,12 +1,12 @@
 {
-    "version": "2.2.6+af56767",
+    "version": "3.1.2+d938bbc",
     "description": "A graph-relational database",
     "homepage": "https://www.edgedb.com/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-2.2.6+af56767.exe#/edgedb.exe",
-            "hash": "5ca3cd5de97013a607207b608faae0848d00c95872e01feb26ee5148694815dd"
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-3.1.2+d938bbc.exe#/edgedb.exe",
+            "hash": "b933e30c6d06c705af8368f35293654a5e77fb6641bb4291e3c16ff6a32cb0c3"
         }
     },
     "bin": "edgedb.exe",

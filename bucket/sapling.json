@@ -1,5 +1,5 @@
 {
-    "version": "0.2.20230124.180750.hf8cd450a",
+    "version": "0.2.20230523.092610.f12b7eee",
     "description": "Sapling SCM is a cross-platform, highly scalable, Git-compatible source control system.",
     "homepage": "https://sapling-scm.com/",
     "license": "GPL-2.0-only",
@@ -10,15 +10,15 @@
     ],
     "suggest": {
         "Node.js": [
-            "main/nodejs",
-            "main/nodejs-lts"
+            "nodejs",
+            "nodejs-lts"
         ],
-        "Git": "main/git"
+        "Git": "git"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/facebook/sapling/releases/download/0.2.20230124-180750-hf8cd450a/sapling_windows_0.2.20230124-180750-hf8cd450a_amd64.zip",
-            "hash": "ca63fa4e5c9df866f4f662ab0d5c7e7640ffdd559d6b6978761e308d5bf3cdbb"
+            "url": "https://github.com/facebook/sapling/releases/download/0.2.20230523-092610+f12b7eee/sapling_windows_0.2.20230523-092610+f12b7eee_amd64.zip",
+            "hash": "ad81bd8adedd330595b57d1e365f47678b8a6afc238a91ccaa507b1d5736ffeb"
         }
     },
     "extract_dir": "Sapling",
@@ -26,8 +26,8 @@
     "checkver": {
         "url": "https://api.github.com/repos/facebook/sapling/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "(?<tag>(?<ver>[\\d.]+)\\.(?<date>[\\d]{8})-(?<time>[\\d]{6})-h(?<hash>[\\da-f]{8}))",
-        "replace": "${ver}.${date}.${time}.h${hash}"
+        "regex": "(?<tag>(?<ver>[\\d.]+)\\.(?<date>[\\d]{8})-(?<time>[\\d]{6})\\+(?<hash>[\\da-f]{8}))",
+        "replace": "${ver}.${date}.${time}.${hash}"
     },
     "autoupdate": {
         "architecture": {

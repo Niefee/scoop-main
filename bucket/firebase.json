@@ -1,12 +1,12 @@
 {
-    "version": "11.22.0",
+    "version": "12.3.1",
     "description": "Test, manage, and deploy Firebase project from the command line",
     "homepage": "https://github.com/firebase/firebase-tools",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/firebase/firebase-tools/releases/download/v11.22.0/firebase-tools-win.exe#/firebase.exe",
-            "hash": "075a0920776871c055fc5312a3a904b8338bfbedb16768168ccac799780c0f56"
+            "url": "https://github.com/firebase/firebase-tools/releases/download/v12.3.1/firebase-tools-win.exe#/firebase.exe",
+            "hash": "25f47e4a69b0e5edbd0319cb06a9859cdc78926d46d8431dc836ae45bd1cd724"
         }
     },
     "bin": "firebase.exe",

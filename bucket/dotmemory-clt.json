@@ -1,5 +1,5 @@
 {
-    "version": "2022.3.2",
+    "version": "2023.1.2",
     "description": "JetBrains dotMemory Command Line Tools for profiling .NET memory usage from the command line.",
     "homepage": "https://www.jetbrains.com/dotmemory/download/#section=commandline",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/resharper/dotUltimate.2022.3.2/JetBrains.dotMemory.Console.windows-x64.2022.3.2.zip",
-            "hash": "5027b2bfe4995a380bcef34034dcbdf5e6b4f26843f9fbb397a74c494e0e6639"
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.2/JetBrains.dotMemory.Console.windows-x64.2023.1.2.zip",
+            "hash": "f24e1b11d1aa2cfb6bd45ae1f75d935bc5c59f369c7c1046c5053fefdadfecc9"
         },
         "32bit": {
-            "url": "https://download.jetbrains.com/resharper/dotUltimate.2022.3.2/JetBrains.dotMemory.Console.windows-x86.2022.3.2.zip",
-            "hash": "9d270430bf85d7b247dc18120b7d4f1051128209799a436c8580680bf24368a0"
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.2/JetBrains.dotMemory.Console.windows-x86.2023.1.2.zip",
+            "hash": "6e3aa1c77ae04e64b656508e6a8c047192b786b1f763fe3072b2b764d351abe8"
         }
     },
     "bin": "dotMemory.exe",

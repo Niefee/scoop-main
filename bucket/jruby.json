@@ -1,5 +1,5 @@
 {
-    "version": "9.4.0.0",
+    "version": "9.4.3.0",
     "description": "The Ruby Programming Language on the JVM.",
     "homepage": "https://www.jruby.org/",
     "license": {
@@ -13,9 +13,9 @@
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://s3.amazonaws.com/jruby.org/downloads/9.4.0.0/jruby-bin-9.4.0.0.zip",
-    "hash": "87c7ad96e907d04b9a85d6f41a666223313aa4225785968efb266e9ca216c453",
-    "extract_dir": "jruby-9.4.0.0",
+    "url": "https://s3.amazonaws.com/jruby.org/downloads/9.4.3.0/jruby-bin-9.4.3.0.zip",
+    "hash": "28574656f9bb2b59a1dd69a1a5c706b12141158dd6e7312e28af6517a0aac5bc",
+    "extract_dir": "jruby-9.4.3.0",
     "env_add_path": [
         "bin",
         "gems\\bin"

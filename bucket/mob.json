@@ -1,12 +1,12 @@
 {
-    "version": "4.2.0",
+    "version": "4.4.3",
     "description": "Smooth git handover with mob",
     "homepage": "https://mob.sh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/remotemobprogramming/mob/releases/download/v4.2.0/mob_v4.2.0_windows_amd64.tar.gz",
-            "hash": "463d47fec018e36589a8ab86f69ca6b67c559b45157da218bcbf6d349c61a505"
+            "url": "https://github.com/remotemobprogramming/mob/releases/download/v4.4.3/mob_v4.4.3_windows_amd64.tar.gz",
+            "hash": "a806ed015869c34addf6bc82b439b488c0aa4e936e3cb907ff9c1117e93989e7"
         }
     },
     "bin": "mob.exe",

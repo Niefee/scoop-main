@@ -53,8 +53,7 @@
         "Formats"
     ],
     "checkver": {
-        "url": "https://www.7-zip.org/download.html",
-        "regex": "Download 7-Zip ([\\d.]+)"
+        "sourceforge": "sevenzip/7-Zip"
     },
     "autoupdate": {
         "architecture": {

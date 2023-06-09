@@ -1,13 +1,13 @@
 {
-    "version": "0.32.5",
+    "version": "0.34.0",
     "description": "Carvel vendir is a tool that makes it easy to vendor portions of git repos, github releases, helm charts, docker image contents, etc. declaratively",
     "homepage": "https://carvel.dev/vendir/",
     "license": "Apache-2.0",
     "notes": "See https://carvel.dev/vendir/#examples for some examples",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v0.32.5/vendir-windows-amd64.exe#/vendir.exe",
-            "hash": "d1110177cbd7bd715d3513f0fb89efa3ab1eba44d300fb2ac18c1fe0dd6e8e19"
+            "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v0.34.0/vendir-windows-amd64.exe#/vendir.exe",
+            "hash": "7aa49b1e4c605b78c0a728c18da08cb26a566d07509aef12a2c9cfc9da11ad6f"
         }
     },
     "bin": "vendir.exe",
