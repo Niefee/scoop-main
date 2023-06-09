@@ -4,7 +4,7 @@
     "homepage": "https://scons.org/",
     "license": "MIT",
     "suggest": {
-        "Python": "python"
+        "Python": "main/python"
     },
     "url": "https://downloads.sourceforge.net/project/scons/scons-local/4.5.2/scons-local-4.5.2.zip",
     "hash": "sha1:6be187ccb7d746ad9fe0d68d572c04de59a236e4",

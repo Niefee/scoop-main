@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": "java/openjdk",
-        "groovyserv": "groovyserv"
+        "groovyserv": "main/groovyserv"
     },
     "url": "https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-4.0.12.zip",
     "hash": "174c28429f63f5ba31cccb3350fd50a2b62a18833be4ac59180b8a43df52dd90",

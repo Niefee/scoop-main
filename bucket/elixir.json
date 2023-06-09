@@ -4,7 +4,7 @@
     "homepage": "https://elixir-lang.org/",
     "license": "Apache-2.0",
     "suggest": {
-        "Erlang compiler": "erlang"
+        "Erlang compiler": "main/erlang"
     },
     "url": "https://builds.hex.pm/builds/elixir/v1.14.5.zip",
     "hash": "f4e4e46aa5b3ddb2de7dd7147c0dfb8e6299be49a6cf5418fcc7fc02f9d633a1",

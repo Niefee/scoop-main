@@ -4,7 +4,7 @@
     "homepage": "https://github.com/vladimir-kotikov/clink-completions",
     "license": "MIT",
     "suggest": {
-        "Clink": "clink"
+        "Clink": "main/clink"
     },
     "url": "https://github.com/vladimir-kotikov/clink-completions/archive/v0.4.8.zip",
     "hash": "97937b9d63e80652a5f1b2995eaf4a148a87a37552e54ffc3369082431b61108",
