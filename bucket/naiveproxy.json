@@ -1,18 +1,18 @@
 {
-    "version": "96.0.4664.45-1",
+    "version": "114.0.5735.91-3",
     "description": "A proxy using Chrome's network stack to camouflage traffic with strong censorship resistence and low detectablility.",
     "homepage": "https://github.com/klzgrad/naiveproxy",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/klzgrad/naiveproxy/releases/download/v96.0.4664.45-1/naiveproxy-v96.0.4664.45-1-win-x64.zip",
-            "hash": "14436ea850ae7604f42a5a51b9fcc72ffd7b479b1608ecacf8db9c68934cf60f",
-            "extract_dir": "naiveproxy-v96.0.4664.45-1-win-x64"
+            "url": "https://github.com/klzgrad/naiveproxy/releases/download/v114.0.5735.91-3/naiveproxy-v114.0.5735.91-3-win-x64.zip",
+            "hash": "2b850a29fd7aa209ee551b95df0bd33cd6eee93221e6e36c8040e9ea6e8e774f",
+            "extract_dir": "naiveproxy-v114.0.5735.91-3-win-x64"
         },
         "32bit": {
-            "url": "https://github.com/klzgrad/naiveproxy/releases/download/v96.0.4664.45-1/naiveproxy-v96.0.4664.45-1-win-x86.zip",
-            "hash": "af3033cd2828d8a0f2044a06a1fd20f4bb289c71b3c3c9d6e3358f79d9ab3d45",
-            "extract_dir": "naiveproxy-v96.0.4664.45-1-win-x86"
+            "url": "https://github.com/klzgrad/naiveproxy/releases/download/v114.0.5735.91-3/naiveproxy-v114.0.5735.91-3-win-x86.zip",
+            "hash": "7b8fbd63c952e27df022fd310f3da268e11ee0781aba580ebb39ec83eb790323",
+            "extract_dir": "naiveproxy-v114.0.5735.91-3-win-x86"
         }
     },
     "bin": "naive.exe",

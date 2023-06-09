@@ -1,20 +1,20 @@
 {
-    "version": "2.5.0",
+    "version": "2.8.1",
     "description": "Command-line interface for WordPress",
     "homepage": "https://wp-cli.org",
     "license": "MIT",
     "notes": "'wp cli update' is aliased to 'scoop update wp-cli'",
     "suggest": {
         "PHP": [
-            "php",
-            "php-nts"
+            "main/php",
+            "main/php-nts"
         ]
     },
-    "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.5.0/wp-cli-2.5.0.phar#/wp-cli.phar",
-    "hash": "sha512:08dd9035fda1d529807380d5b757839e2809e289eb1a698fe33e7e21a1431d3f77c551c2b2db5adc55083d5075ea4137407994111890f765e790a97e6d9ca7af",
+    "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.8.1/wp-cli-2.8.1.phar#/wp-cli.phar",
+    "hash": "sha512:c1d40ee90b330ca1f8ddbed14b938b41ec5d9ff723c7c1cf3f41a2d9a1b271079a51a37ea3d1c9aa9c628fdd43449dba3995a8de150a68abbd505b06b91d9d2b",
     "pre_install": [
         "echo 'if($args.length -eq 2 -and ($args[0] -eq \"cli\" -and $args[1] -eq \"update\")) { & scoop update wp-cli }' | out-file \"$dir\\wp.ps1\"",
-        "echo 'else { & php (join-path $psscriptroot \"wp-cli.phar\") @args }' | out-file \"$dir\\wp.ps1\" -append"
+        "echo 'else { & php (join-path $PSScriptRoot \"wp-cli.phar\") @args }' | out-file \"$dir\\wp.ps1\" -append"
     ],
     "bin": "wp.ps1",
     "checkver": {

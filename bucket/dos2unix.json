@@ -1,16 +1,16 @@
 {
-    "version": "7.4.2",
+    "version": "7.5.0",
     "description": "Convert text files with DOS or Mac line endings to Unix line endings and vice versa",
-    "homepage": "http://dos2unix.sourceforge.net/",
+    "homepage": "https://waterlan.home.xs4all.nl/dos2unix.html",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.2-win64.zip",
-            "hash": "33b89323a700d9067113a26128b0ecdb7f5edb7bd9fde5c37e9bb27053895674"
+            "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.5.0-win64.zip",
+            "hash": "e6ce0c77355ee9c31cf7412b7d12ec7d36c8a2be388aa9e57cf988d7aabc5c07"
         },
         "32bit": {
-            "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.2-win32.zip",
-            "hash": "bc95f33944bdf7c1371afe3785bb1f7a2928a66097c197c4ffdd9ff8e636adda"
+            "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.5.0-win32.zip",
+            "hash": "3ea6b4923dd77e975046ed7f2a9629326b7395f98f75c6706805c4bf9188ca9c"
         }
     },
     "bin": [
@@ -19,10 +19,7 @@
         "bin\\unix2dos.exe",
         "bin\\unix2mac.exe"
     ],
-    "checkver": {
-        "url": "https://waterlan.home.xs4all.nl/dos2unix.html",
-        "regex": "Stable version:\\s+([\\d.]+)"
-    },
+    "checkver": "Stable version:\\s+([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {

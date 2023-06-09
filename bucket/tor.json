@@ -1,5 +1,5 @@
 {
-    "version": "0.4.6.9",
+    "version": "0.4.7.13-12.0.7",
     "description": "Enables anonymous communication over the onion network (expert mode).",
     "homepage": "https://www.torproject.org",
     "license": "BSD-3-Clause",
@@ -9,20 +9,20 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dist.torproject.org/torbrowser/11.0.3/tor-win64-0.4.6.9.zip",
-            "hash": "fabb46fb0b82c7cd3592c96554ffd8c0766b2e467559e3613b3e14ac191aed19"
+            "url": "https://archive.torproject.org/tor-package-archive/torbrowser/12.0.7/tor-expert-bundle-12.0.7-windows-x86_64.tar.gz",
+            "hash": "11818438170744c94133d5a73497aeef68ae9e97937f1d0a7f4ccbd7da9430b4"
         },
         "32bit": {
-            "url": "https://dist.torproject.org/torbrowser/11.0.3/tor-win32-0.4.6.9.zip",
-            "hash": "1a89145369c489b73b86db401d1a1232bf4901d6067c926e32f519ea1655026e"
+            "url": "https://archive.torproject.org/tor-package-archive/torbrowser/12.0.7/tor-expert-bundle-12.0.7-windows-i686.tar.gz",
+            "hash": "4097ff3df7d9e76f4880f63219d564031cca3a81d5fb9368e94c9c70809461ab"
         }
     },
     "pre_install": [
-        "$current = current_dir $dir",
+        "$current_dir = if (get_config NO_JUNCTIONS) { $dir } else { \"$(appdir $app $global)\\current\" }",
         "$content = @(",
-        "    \"DataDirectory `\"$current\\Data\\Data`\"\"",
-        "    \"GeoIPFile `\"$current\\Data\\Tor\\geoip`\"\"",
-        "    \"GeoIPv6File `\"$current\\Data\\Tor\\geoip6`\"\"",
+        "    \"DataDirectory `\"$current_dir\\data`\"\"",
+        "    \"GeoIPFile `\"$current_dir\\data\\geoip`\"\"",
+        "    \"GeoIPv6File `\"$current_dir\\data\\geoip6`\"\"",
         ")",
         "if (!(Test-Path \"$persist_dir\\torrc\")) {",
         "    Add-Content \"$dir\\torrc\" $content.Replace('\\', '/') -Encoding ASCII -Force",
@@ -30,28 +30,32 @@
     ],
     "bin": [
         [
-            "Tor\\tor.exe",
+            "tor\\tor.exe",
             "tor",
             "-f \"$dir\\torrc\""
         ],
-        "Tor\\tor-gencert.exe"
+        "tor\\tor-gencert.exe"
     ],
     "persist": [
-        "Data\\Data",
+        "data",
         "torrc"
     ],
     "checkver": {
         "url": "https://www.torproject.org/download/tor/",
-        "regex": "dist/torbrowser/(?<browser>[\\d.]+)/tor-win32-(?<version>[\\d.]+)\\.zip"
+        "regex": "windows-i686.tar.gz\">(?<browser>[\\d.]+) \\(tor (?<tor>[\\d.]+)\\)",
+        "replace": "${tor}-${browser}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dist.torproject.org/torbrowser/$matchBrowser/tor-win64-$version.zip"
+                "url": "https://archive.torproject.org/tor-package-archive/torbrowser/$matchBrowser/tor-expert-bundle-$matchBrowser-windows-x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://dist.torproject.org/torbrowser/$matchBrowser/tor-win32-$version.zip"
+                "url": "https://archive.torproject.org/tor-package-archive/torbrowser/$matchBrowser/tor-expert-bundle-$matchBrowser-windows-i686.tar.gz"
             }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums-signed-build.txt"
         }
     }
 }

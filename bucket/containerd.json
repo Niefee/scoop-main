@@ -1,12 +1,12 @@
 {
-    "version": "1.5.8",
+    "version": "1.7.2",
     "description": "An open and reliable container runtime",
     "homepage": "https://containerd.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containerd/containerd/releases/download/v1.5.8/containerd-1.5.8-windows-amd64.tar.gz",
-            "hash": "1247e417f11bcf582607eedf73ff2b7bbf542488d2c94145480607bc490e28df"
+            "url": "https://github.com/containerd/containerd/releases/download/v1.7.2/containerd-1.7.2-windows-amd64.tar.gz",
+            "hash": "c3ccc679e2c2ceb66d00417a8baf8db3ab8488c2f69d33fc1237eebe8a40c224"
         }
     },
     "bin": [
@@ -26,5 +26,10 @@
         "hash": {
             "url": "$url.sha256sum"
         }
-    }
+    },
+    "notes": [
+        "To register containerd as a service, run `containerd --register-service` as an elevated user",
+        "To start the containerd service, run `Start-Service containerd` in PowerShell",
+        "or `sc start containerd` in Cmd."
+    ]
 }

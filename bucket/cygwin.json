@@ -1,5 +1,5 @@
 {
-    "version": "2.911",
+    "version": "2.926",
     "description": "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows",
     "homepage": "https://cygwin.com/",
     "license": {
@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
-            "hash": "b9219acd1241ffa4d38e19587f1ccc2854f951e451f3858efc9d2e1fe19d375c"
+            "hash": "6bad4555154b3b348d1bfb633a2e9d6086aa46e36952f456a434ecef5b0010e0"
         },
         "32bit": {
             "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe",
-            "hash": "ff20b6440ba750dc70e92b5ca24bda40543f1c68800931425c16fd428abe21fc"
+            "hash": "1738561e93ce1ce7c69553cf63096b8a1798ec6b46c64f798f747ba3e7e72982"
         }
     },
     "checkver": {
@@ -43,9 +43,12 @@
             "--no-admin",
             "--no-shortcuts",
             "--quiet-mode",
-            "--local-package-dir \"$persist_dir\\packages\"",
-            "--root \"$persist_dir\\root\"",
-            "--site \"https://mirrors.kernel.org/sourceware/cygwin/\""
+            "--local-package-dir",
+            "$persist_dir\\packages",
+            "--root",
+            "$persist_dir\\root",
+            "--site",
+            "https://mirrors.kernel.org/sourceware/cygwin/"
         ],
         "keep": true
     },

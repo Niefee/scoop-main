@@ -1,16 +1,20 @@
 {
-    "version": "0.7.1",
+    "version": "1.0.3",
     "description": "Load testing and DDOS attack simulation tool",
     "homepage": "https://ddosify.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ddosify/ddosify/releases/download/v0.7.1/ddosify_0.7.1_windows_amd64.zip",
-            "hash": "50e21e95a8b3676a64c4acd831348dfa672611bfa9f69a3f64cd55a34001634c"
+            "url": "https://github.com/ddosify/ddosify/releases/download/v1.0.3/ddosify_1.0.3_windows_amd64.zip",
+            "hash": "4e9a4aa8192b5340b782ec00583f660e0c1dc9ecc89666ce4f9d6c5b67b30474"
         },
         "32bit": {
-            "url": "https://github.com/ddosify/ddosify/releases/download/v0.7.1/ddosify_0.7.1_windows_386.zip",
-            "hash": "09f52c8d791b9b8b1fa3f81bb83b1fc3eb95ee670e1cf5352dccdf902684b922"
+            "url": "https://github.com/ddosify/ddosify/releases/download/v1.0.3/ddosify_1.0.3_windows_386.zip",
+            "hash": "03397fc9c2a1f4455c40605f91c9087a39b41ddbea7a91e853430efd6c1dc36b"
+        },
+        "arm64": {
+            "url": "https://github.com/ddosify/ddosify/releases/download/v1.0.3/ddosify_1.0.3_windows_arm64.zip",
+            "hash": "a00a3f33af42bb875e35e64b62a899e07a6c2e3d42694267d658beda29f4b0f0"
         }
     },
     "bin": "ddosify.exe",
@@ -24,6 +28,9 @@
             },
             "32bit": {
                 "url": "https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_arm64.zip"
             }
         },
         "hash": {

@@ -1,20 +1,20 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.12",
     "description": "A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula.",
     "homepage": "https://nim-lang.org/",
     "license": "MIT",
-    "depends": "gcc",
+    "depends": "mingw-winlibs",
     "architecture": {
         "64bit": {
-            "url": "https://nim-lang.org/download/nim-1.6.2_x64.zip",
-            "hash": "cdb2670bbc1094edc2e78fbbca41cb80f032a01b30913248fa028e79ab3e1567"
+            "url": "https://nim-lang.org/download/nim-1.6.12_x64.zip",
+            "hash": "d226309a33bb965076e105c53d9050268e994cd15ea050f6e15b9da4ed096afb"
         },
         "32bit": {
-            "url": "https://nim-lang.org/download/nim-1.6.2_x32.zip",
-            "hash": "0ccbaa0fb1e619b7bea932e984933570e21bc3d2c68cffca190a9b8fcb410893"
+            "url": "https://nim-lang.org/download/nim-1.6.12_x32.zip",
+            "hash": "2ed2d52c18276a57dc7ca56f13f0b3f32c170e033e939529aef32680ecfc2bce"
         }
     },
-    "extract_dir": "nim-1.6.2",
+    "extract_dir": "nim-1.6.12",
     "post_install": [
         "# Copy Nimble package",
         "Copy-Item -Recurse \"$dir\\dist\\nimble\\src\\nimblepkg\" \"$dir\\bin\""

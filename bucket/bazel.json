@@ -1,17 +1,17 @@
 {
-    "version": "4.2.2",
+    "version": "6.2.1",
     "description": "A fast, scalable, multi-language and extensible build system",
     "homepage": "https://bazel.build",
     "license": "Apache-2.0",
     "suggest": {
-        "MSYS2": "msys2",
+        "MSYS2": "main/msys2",
         "Python27": "versions/python27",
-        "curl": "curl"
+        "curl": "main/curl"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.2/bazel-4.2.2-windows-x86_64.zip",
-            "hash": "99950fa4764c1d04878d8ea361421f20862e6529be5c6ecc5d86c40e4ecd25c1"
+            "url": "https://github.com/bazelbuild/bazel/releases/download/6.2.1/bazel-6.2.1-windows-x86_64.zip",
+            "hash": "3348527a96511801993ec893d6adf89faa9279e7c8375552aa971d36606b9f01"
         }
     },
     "bin": "bazel.exe",

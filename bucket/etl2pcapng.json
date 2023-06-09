@@ -1,10 +1,10 @@
 {
-    "version": "1.5.0",
+    "version": "1.10.0",
     "description": "Convert .etl to .pcapng",
     "homepage": "https://github.com/microsoft/etl2pcapng",
     "license": "MIT",
-    "url": "https://github.com/microsoft/etl2pcapng/releases/download/1.5.0/etl2pcapng.zip",
-    "hash": "e2ee70f75cbd922823f1d9bc390e7ad7f49fed4d7b450831bc6bef8e2cb26a07",
+    "url": "https://github.com/microsoft/etl2pcapng/releases/download/v1.10.0/etl2pcapng.exe",
+    "hash": "c016819f8367e1381c27c4ec15fd7d7e005b1e94df052fb554d0f84e34060f06",
     "bin": "etl2pcapng.exe",
     "architecture": {
         "64bit": {
@@ -16,6 +16,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/etl2pcapng/releases/download/$version/etl2pcapng.zip"
+        "url": "https://github.com/microsoft/etl2pcapng/releases/download/v$version/etl2pcapng.exe"
     }
 }

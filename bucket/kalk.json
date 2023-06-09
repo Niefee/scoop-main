@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "0.8.1",
     "description": "Command line calculator app.",
     "homepage": "https://kalk.dev/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xoofx/kalk/releases/download/0.4.0/kalk.0.4.0.win-x64.zip",
-            "hash": "4191ead3b5eb1deecd68d27ee1e6042360103864ba87faac6afab85b18bb9300"
+            "url": "https://github.com/xoofx/kalk/releases/download/0.8.1/kalk.0.8.1.win-x64.zip",
+            "hash": "7b5c87bf9ada71d21a02ccbf6ad72f2eef07a6ec19e48899c14e6684df777aa6"
         }
     },
     "bin": "kalk.exe",

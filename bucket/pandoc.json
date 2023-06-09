@@ -1,18 +1,18 @@
 {
-    "version": "2.16.2",
+    "version": "3.1.3",
     "description": "Universal markup converter",
     "homepage": "https://pandoc.org",
     "license": "GPL-2.0-or-later",
     "suggest": {
-        "MiKTeX": "latex"
+        "MiKTeX": "main/latex"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-windows-x86_64.zip",
-            "hash": "a01bfd0fb702c4fc3de2e829fac2c6964afdb2bc285f57dce4ec00945069eff7"
+            "url": "https://github.com/jgm/pandoc/releases/download/3.1.3/pandoc-3.1.3-windows-x86_64.zip",
+            "hash": "9b2d439db3188a624d212e1c73462ebb97453427cb470dc08bb31bf128429337"
         }
     },
-    "extract_dir": "pandoc-2.16.2",
+    "extract_dir": "pandoc-3.1.3",
     "bin": "pandoc.exe",
     "checkver": {
         "github": "https://github.com/jgm/pandoc"

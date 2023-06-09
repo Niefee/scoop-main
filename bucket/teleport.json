@@ -1,12 +1,12 @@
 {
-    "version": "8.0.7",
+    "version": "13.1.0",
     "description": "Privileged access management for cloud-native infrastructure",
     "homepage": "https://gravitational.com/teleport",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://get.gravitational.com/teleport-v8.0.7-windows-amd64-bin.zip",
-            "hash": "10d11bb0930d26d10ac562a079ad9c2f92dc72830e703009590d72a93990c5bf"
+            "url": "https://get.gravitational.com/teleport-v13.1.0-windows-amd64-bin.zip",
+            "hash": "f94e277dff6a09a1ab6cbb922a0c9b76c3d596eb54b1b47ff9ef4c73c974b121"
         }
     },
     "extract_dir": "teleport",

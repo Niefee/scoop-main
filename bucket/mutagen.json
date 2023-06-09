@@ -1,16 +1,16 @@
 {
-    "version": "0.12.0",
+    "version": "0.17.1",
     "description": "Fast, cross-platform, continuous, multidirectional file synchronization for remote development",
     "homepage": "https://mutagen.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.12.0/mutagen_windows_amd64_v0.12.0.zip",
-            "hash": "9a9b1e73213d7afc563256d8c1fc9e2223345b3a2602bcd4acad0d995ff4df74"
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.17.1/mutagen_windows_amd64_v0.17.1.zip",
+            "hash": "de15b53f6dc38fd1c510e3c0e7ba92a01d9fae9c6bea5bd61f99dea4d1123557"
         },
         "32bit": {
-            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.12.0/mutagen_windows_386_v0.12.0.zip",
-            "hash": "50cdd713c79617145f0965ee0c14c35a75ce68988d5c54f32ffe9e3ecda206a5"
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.17.1/mutagen_windows_386_v0.17.1.zip",
+            "hash": "5832e160bb495c023a5190940653af481a539a1111591ab1910717358bb1126d"
         }
     },
     "bin": "mutagen.exe",

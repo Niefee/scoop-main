@@ -1,12 +1,12 @@
 {
-    "version": "0.6.8",
+    "version": "0.8.0",
     "description": "A tree-sitter based AST difftool to get meaningful semantic diffs",
     "homepage": "https://github.com/afnanenayet/diffsitter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.6.8/diffsitter-x86_64-pc-windows-msvc.zip",
-            "hash": "eab7cfc8ceb105725f8a41335375a9902678bc1b42f2c5d77f6d0ec4dfa47919"
+            "url": "https://github.com/afnanenayet/diffsitter/releases/download/v0.8.0/diffsitter-x86_64-pc-windows-msvc.zip",
+            "hash": "a17e0b843052e2fd6fe81982f28de0dd6f84d06b2cb08f2a0045bb8a9b8ada86"
         }
     },
     "bin": "diffsitter.exe",

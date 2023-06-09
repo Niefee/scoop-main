@@ -1,0 +1,50 @@
+{
+    "version": "62",
+    "description": "A video processing framework with simplicity in mind",
+    "homepage": "https://www.vapoursynth.com",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R62/VapourSynth64-Portable-R62.7z",
+            "hash": "7f2e8a21c6ae161828d9fb4b6c6a3f0837f76dc5132507ed159d2ba80b2b337c"
+        },
+        "32bit": {
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R62/VapourSynth64-Portable-R62.7z",
+            "hash": "7f2e8a21c6ae161828d9fb4b6c6a3f0837f76dc5132507ed159d2ba80b2b337c"
+        }
+    },
+    "pre_install": [
+        "$arch = $architecture.SubString(0,2)",
+        "if(Test-Path \"$persist_dir\\vapoursynth$arch\") {Copy-Item \"$persist_dir\\*\" \"$dir\\\" -Force -Recurse}"
+    ],
+    "uninstaller": {
+        "script": [
+            "$arch = $architecture.SubString(0,2)",
+            "ensure \"$persist_dir\" | Out-Null",
+            "Copy-Item \"$dir\\vapoursynth$arch\" \"$persist_dir\\\" -Force -Recurse"
+        ]
+    },
+    "bin": [
+        "AVFS.exe",
+        "VSPipe.exe",
+        "pfm-192-vapoursynth-win.exe",
+        "vsrepo.py"
+    ],
+    "checkver": {
+        "github": "https://github.com/vapoursynth/vapoursynth",
+        "regex": "tag/R(\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
+            }
+        }
+    }
+}

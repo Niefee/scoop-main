@@ -1,28 +1,25 @@
 {
-    "version": "3.0.1",
+    "version": "3.1.1",
     "description": "TLS/SSL toolkit",
     "homepage": "https://slproweb.com/products/Win32OpenSSL.html",
-    "license": {
-        "identifier": "Apache-2.0",
-        "url": "https://www.openssl.org/source/license-openssl-ssleay.txt"
-    },
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://slproweb.com/download/Win64OpenSSL-3_0_1.exe",
-            "hash": "d2eea91c5d7bc33a9ea69c6a1d82cef6113d08760601b9986c12e6828904dfcc"
+            "url": "https://slproweb.com/download/Win64OpenSSL-3_1_1.exe",
+            "hash": "2424f0209c015aefc0da0a8c00d06186fccc9553ac3a9a5087b79f265efca8f4"
         },
         "32bit": {
-            "url": "https://slproweb.com/download/Win32OpenSSL-3_0_1.exe",
-            "hash": "2d39885a7c6d607bf05327e53e86f3a3e159ad4650bc06b6dbe0719aa7eb235b"
+            "url": "https://slproweb.com/download/Win32OpenSSL-3_1_1.exe",
+            "hash": "f2e51490041012d796551ee23546613d89b6b57a2880726a56235ce147326d51"
         }
     },
     "innosetup": true,
-    "bin": "bin\\openssl.exe",
     "env_add_path": "bin",
     "env_set": {
         "OPENSSL_CONF": "$dir\\bin\\cnf\\openssl.cnf",
         "OPENSSL_LIB_DIR": "$dir\\lib",
-        "OPENSSL_INCLUDE_DIR": "$dir\\include"
+        "OPENSSL_INCLUDE_DIR": "$dir\\include",
+        "OPENSSL_MODULES": "$dir\\bin"
     },
     "checkver": "Win32 OpenSSL v([^\\s]+)",
     "autoupdate": {

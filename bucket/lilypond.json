@@ -1,22 +1,26 @@
 {
-    "version": "2.22.1-1",
+    "version": "2.24.1",
     "description": "A music engraving program devoted to producing the highest-quality sheet music possible.",
-    "homepage": "http://lilypond.org",
+    "homepage": "https://lilypond.org",
     "license": "GPL-3.0-or-later",
-    "url": "http://lilypond.org/download/binaries/mingw/lilypond-2.22.1-1.mingw.exe#/dl.7z",
-    "hash": "f5f4fbc49456391a176b55e2e64ee7335203902f6068815a3a85cf1ab5807162",
-    "bin": "usr\\bin\\lilypond.exe",
-    "shortcuts": [
-        [
-            "usr\\bin\\lilypad.exe",
-            "LilyPad"
-        ]
-    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://gitlab.com/lilypond/lilypond/-/releases/v2.24.1/downloads/lilypond-2.24.1-mingw-x86_64.zip",
+            "hash": "750617aaf639360cd622c0beca1b84ff06b516ec5a07064f9d66f3b6582e05f8"
+        }
+    },
+    "extract_dir": "lilypond-2.24.1",
+    "bin": "bin\\lilypond.exe",
     "checkver": {
-        "url": "http://lilypond.org/windows.html",
-        "regex": "/lilypond-([\\d.-]+).mingw\\.exe"
+        "url": "http://lilypond.org/download.html",
+        "regex": "lilypond-([\\d.-]+)-mingw"
     },
     "autoupdate": {
-        "url": "http://lilypond.org/download/binaries/mingw/lilypond-$version.mingw.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://gitlab.com/lilypond/lilypond/-/releases/v$version/downloads/lilypond-$version-mingw-x86_64.zip"
+            }
+        },
+        "extract_dir": "lilypond-$version"
     }
 }

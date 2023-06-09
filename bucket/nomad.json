@@ -1,16 +1,16 @@
 {
-    "version": "1.2.3",
+    "version": "1.5.6",
     "description": "Easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications.",
     "homepage": "https://www.nomadproject.io",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.hashicorp.com/nomad/1.2.3/nomad_1.2.3_windows_amd64.zip",
-            "hash": "a81553609a45059aa346ca1a8322b77941cb5c65c548db373db58968f23e04f3"
+            "url": "https://releases.hashicorp.com/nomad/1.5.6/nomad_1.5.6_windows_amd64.zip",
+            "hash": "a8889827b3252b735ab2de2b8ecb3db365bf0f873afc055101b82725410e775d"
         },
         "32bit": {
-            "url": "https://releases.hashicorp.com/nomad/1.2.3/nomad_1.2.3_windows_386.zip",
-            "hash": "0f80308f5e4429b28d68e309321994c8bce007a2da54f01f305857810631fa40"
+            "url": "https://releases.hashicorp.com/nomad/1.5.6/nomad_1.5.6_windows_386.zip",
+            "hash": "82394e7e975582947fb617ae3b2b3220ea3fae0f7a7e4723151a0ccfd106788b"
         }
     },
     "bin": "nomad.exe",
