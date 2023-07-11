@@ -1,0 +1,42 @@
+name: cron job
+
+on:
+  run automatically every 12 hours
+  schedule:
+    - cron: "* 8 * * *"
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v3
+
+     - name: git pull
+       run: |
+        git config --global user.email niefee@niefee.com
+        git config --global user.name niefee
+        # git config pull.rebase false
+        # git pull https://github.com/ScoopInstaller/Main.git --allow-unrelated-histories
+        git remote add scoop https://github.com/ScoopInstaller/Main.git
+        # git pull scoop
+        # git fetch scoop
+        # git merge scoop/master -m 'merge' --allow-unrelated-histories
+        # git push origin
+        git fetch --all
+        git reset --hard scoop/master
+        # git fetch scoop
+        git merge scoop/master -m 'merge' --allow-unrelated-histories
+        git push -f origin master
+
+
+    #  - name: Push changes
+    #    uses: ad-m/github-push-action@master
+    #    with:
+    #      github_token: ${{ secrets.GITHUB_TOKEN }}
