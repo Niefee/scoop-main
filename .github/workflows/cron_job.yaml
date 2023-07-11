@@ -33,6 +33,7 @@ jobs:
         git reset --hard scoop/master
         # git fetch scoop
         git merge scoop/master -m 'merge' --allow-unrelated-histories
+        git reset --hard origin/master
         git push -f origin master
 
 
