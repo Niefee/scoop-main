@@ -27,12 +27,11 @@ jobs:
         git remote add scoop https://github.com/ScoopInstaller/Main.git
         # git pull scoop
         # git fetch scoop
-        # git merge scoop/master -m 'merge' --allow-unrelated-histories
         # git push origin
         git fetch --all
         # git reset --hard scoop/master
         # git fetch scoop
-        git reset --hard origin/master
+        # git reset --hard origin/master
         git merge scoop/master -m 'merge' --allow-unrelated-histories
         git push -f origin master
 
