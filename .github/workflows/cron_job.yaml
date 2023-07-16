@@ -11,30 +11,40 @@ on:
   push:
     branches: [ master ]
 
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#      - name: Checkout
+#        uses: actions/checkout@v3
+
+#      - name: git pull
+#        run: |
+#         git config --global user.email niefee@niefee.com
+#         git config --global user.name niefee
+#         # git config pull.rebase false
+#         # git pull https://github.com/ScoopInstaller/Main.git --allow-unrelated-histories
+#         git remote add scoop https://github.com/ScoopInstaller/Main.git
+#         # git pull scoop
+#         # git fetch scoop
+#         # git push origin
+#         git fetch --all
+#         # git reset --hard scoop/master
+#         # git fetch scoop
+#         # git reset --hard origin/master
+#         git merge scoop/master -m 'merge' --allow-unrelated-histories
+#         git push -f origin master
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  excavate:
+    name: Excavate
+    runs-on: windows-latest
     steps:
-     - name: Checkout
-       uses: actions/checkout@v3
-
-     - name: git pull
-       run: |
-        git config --global user.email niefee@niefee.com
-        git config --global user.name niefee
-        # git config pull.rebase false
-        # git pull https://github.com/ScoopInstaller/Main.git --allow-unrelated-histories
-        git remote add scoop https://github.com/ScoopInstaller/Main.git
-        # git pull scoop
-        # git fetch scoop
-        # git push origin
-        git fetch --all
-        # git reset --hard scoop/master
-        # git fetch scoop
-        # git reset --hard origin/master
-        git merge scoop/master -m 'merge' --allow-unrelated-histories
-        git push -f origin master
-
+    - uses: actions/checkout@main
+    - name: Excavate
+      uses: ScoopInstaller/GithubActions@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SKIP_UPDATED: '1'
 
     #  - name: Push changes
     #    uses: ad-m/github-push-action@master
