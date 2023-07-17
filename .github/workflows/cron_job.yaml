@@ -3,7 +3,7 @@ name: cron job
 on:
   # run automatically every 12 hours
   schedule:
-    - cron: "* 8 * * *"
+    - cron: "0/30 8 * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:
