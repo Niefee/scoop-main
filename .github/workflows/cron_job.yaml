@@ -36,23 +36,27 @@ on:
 #         git push -f origin master
 jobs:
   excavate:
-    name: Excavate
+    name: Sync
     runs-on: windows-latest
     steps:
     - name: Checkout
       uses: actions/checkout@main
-
-    - name: git config
-      run: |
-        git config --global user.email niefee@niefee.com
-        git config --global user.name niefee
 
     - name: Excavate
       uses: ScoopInstaller/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
-
+  
+    - name: git merge
+      run: |
+        git config --global user.email niefee@niefee.com
+        git config --global user.name niefee
+        git remote add scoop https://github.com/ScoopInstaller/Main.git
+        git fetch --all
+        git merge scoop/master -m 'merge' --allow-unrelated-histories
+        git push -f origin master
+        
     #  - name: Push changes
     #    uses: ad-m/github-push-action@master
     #    with:
