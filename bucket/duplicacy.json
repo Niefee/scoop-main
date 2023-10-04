@@ -1,5 +1,5 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.2",
     "description": "A lock-free deduplication cloud backup tool",
     "homepage": "https://duplicacy.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v3.2.0/duplicacy_win_x64_3.2.0.exe#/duplicacy.exe",
-            "hash": "05da21ff58eec90053dafddd4c18140c077131dce48b2e8ec383b7fbeadbb756"
+            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v3.2.2/duplicacy_win_x64_3.2.2.exe#/duplicacy.exe",
+            "hash": "f896d8738386159434458af781787d1ec33cc98bee375b4f6fa45d1227d20f90"
         },
         "32bit": {
-            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v3.2.0/duplicacy_win_i386_3.2.0.exe#/duplicacy.exe",
-            "hash": "a861a47a1a5fa30e0f1fee9e967cd1be29904cbb527193a25245a46ac9ac4e8b"
+            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v3.2.2/duplicacy_win_i386_3.2.2.exe#/duplicacy.exe",
+            "hash": "6351b2e4776a721f2894065247d251b2c5339b439efdfb0f587d3ef11e228894"
         }
     },
     "bin": "duplicacy.exe",
