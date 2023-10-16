@@ -1,16 +1,16 @@
 {
-    "version": "7.161",
+    "version": "7.163",
     "homepage": "https://www.xnview.com/en/nconvert/",
     "description": "A command line batch image processor that is compatible with several image formats.",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://download.xnview.com/NConvert-win64.zip",
-            "hash": "3b879b4f5ea28e7ebbd6abdde43ac72df48ee2fd3b4deb31b63166017bd435d6"
+            "hash": "94be4cd5c22f7ef1b0182000744f1972879d542c53f360fd542200f83040f172"
         },
         "32bit": {
             "url": "https://download.xnview.com/NConvert-win.zip",
-            "hash": "b196f17e62b2392a1c37d175b4db861d6cb4168030f7a7d5a6b0ce4a183d9766"
+            "hash": "aa6233973daf3b582a2c65ae33e9a25998a4eaeb1127a119ba0beb1567ebec71"
         }
     },
     "extract_dir": "NConvert",
