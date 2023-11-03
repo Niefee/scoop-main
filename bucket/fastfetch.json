@@ -1,16 +1,16 @@
 {
-    "version": "2.1.2",
+    "version": "2.2.1",
     "description": "A neofetch-like tool for fetching system information and displaying them in a pretty way",
     "homepage": "https://github.com/fastfetch-cli/fastfetch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Win64.zip",
-            "hash": "4f97d5ddb3a7ed1473229d920d08553cbd494b6d50ac230963f6694adf6945dc"
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.2.1/fastfetch-2.2.1-Win64.zip",
+            "hash": "1c29fa13fc7438138b818e181a6b858221ceca2158d90bc9fe502f6b1161be24"
         },
         "32bit": {
-            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Win32.zip",
-            "hash": "0dbb078dc371bd76436ec3052bef3e935027a549079b02415ed3622b73934b46"
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.2.1/fastfetch-2.2.1-Win32.zip",
+            "hash": "f56dc3057a0663f5cc146051542dc27acbd1757f84476fa7f411f104205e7878"
         }
     },
     "bin": [
