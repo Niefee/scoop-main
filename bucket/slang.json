@@ -1,28 +1,28 @@
 {
-    "version": "2023.4.4",
+    "version": "2023.4.7",
     "description": "A new language and compiler for shader development.",
     "homepage": "https://shader-slang.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.4/slang-2023.4.4-win64.zip",
-            "hash": "beb0e086475501b7cc7c3293272af2eed8d8118c6c3b2fcb436283a910d18d3f",
+            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.7/slang-2023.4.7-win64.zip",
+            "hash": "ee9784b0c16f383b8016502adae7948eea793c4cdc14eda69050da78f2d2490f",
             "bin": [
                 "bin/windows-x64/release/slangc.exe",
                 "bin/windows-x64/release/slangd.exe"
             ]
         },
         "32bit": {
-            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.4/slang-2023.4.4-win32.zip",
-            "hash": "6695ce53c3d72e9d75d5517c7a35e1afae1d210ce9f722b28c52c7a91fc7667c",
+            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.7/slang-2023.4.7-win32.zip",
+            "hash": "af0ce107fc8450a12068958a50e9bdb6a52d0c60b43eb244b86717bc70e0876f",
             "bin": [
                 "bin/windows-x86/release/slangc.exe",
                 "bin/windows-x86/release/slangd.exe"
             ]
         },
         "arm64": {
-            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.4/slang-2023.4.4-win-arm64.zip",
-            "hash": "c70b0f9735cc22ece87b147b7ea58df611390d0edf9ee90d315fec0145c1392a",
+            "url": "https://github.com/shader-slang/slang/releases/download/v2023.4.7/slang-2023.4.7-win-arm64.zip",
+            "hash": "de5e39b29b8cec666103f7530c371ef8e75467e963a65f5f73f8cc5e629440ca",
             "bin": [
                 "bin/windows-aarch64/release/slangc.exe",
                 "bin/windows-aarch64/release/slangd.exe"
