@@ -1,12 +1,12 @@
 {
-    "version": "1.167.4",
+    "version": "1.169.6",
     "description": "An open-source Firebase alternative.",
     "homepage": "https://supabase.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/supabase/cli/releases/download/v1.167.4/supabase_windows_amd64.tar.gz",
-            "hash": "b8cea9eeff7536940ac1df9c6bbe63348f0db130e0a47883c20875ba3d8bf296"
+            "url": "https://github.com/supabase/cli/releases/download/v1.169.6/supabase_windows_amd64.tar.gz",
+            "hash": "0deb68ddcdf10b1844581fddc5f33818e58f46f1eafb1e300b2d0c0b22f9433f"
         }
     },
     "bin": "supabase.exe",
