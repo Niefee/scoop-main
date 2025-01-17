@@ -1,19 +1,19 @@
 {
-    "version": "0.17.24",
+    "version": "0.17.27",
     "description": "Idempotent schema management for MySQL, Microsoft SQL Server, and SQLite.",
     "homepage": "https://github.com/k0kubun/sqldef",
     "license": "MIT,Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/k0kubun/sqldef/releases/download/v0.17.24/mssqldef_windows_amd64.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.17.24/mysqldef_windows_amd64.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.17.24/sqlite3def_windows_amd64.zip"
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/mssqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/mysqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/sqlite3def_windows_amd64.zip"
             ],
             "hash": [
-                "22ebeaa9cfddb1e485befecbbcae66365cb25f0df433ab469d63b1ed1f0150b2",
-                "fb52ec47d2cd4577298798ec28e95ef6be6bb05ca4d42aed894e09c20c9c2f1f",
-                "98f15c971300d5d824b0d7491161bc6d949f6e5ceca5c595fcd7560374381eab"
+                "9bc25d50729280b29f862b8379fb7c95176779782e11efc1c2b9b2fa4864accc",
+                "58adbf0046c413958d738efa461125c3f5ceaf186288cee6b394eb0566b4cf3e",
+                "b6ef15fddafce73064f4ae9a421ac8736a5f0255c9f5de8691727786d0066300"
             ]
         },
         "32bit": {
