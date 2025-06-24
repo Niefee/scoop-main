@@ -1,12 +1,12 @@
 {
-    "version": "0.1.7",
+    "version": "1.2.3",
     "description": "A distributed POSIX file system built on top of Redis and S3.",
     "homepage": "https://juicefs.com",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/juicedata/juicefs/releases/download/v0.1.7/juicefs-0.1.7-windows-amd64.tar.gz",
-            "hash": "c9714afc43db605c663f137ec0c036bd8f5344549a3d4e3a30e4954bb8ee111e"
+            "url": "https://github.com/juicedata/juicefs/releases/download/v1.2.3/juicefs-1.2.3-windows-amd64.tar.gz",
+            "hash": "33efd2c45b708867c14b3a38e2751c17583046f4a50cf914275e3dcca9a01744"
         }
     },
     "bin": "juicefs.exe",
