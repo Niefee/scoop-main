@@ -1,5 +1,5 @@
 {
-    "version": "0.6.8",
+    "version": "17.18.0",
     "description": "Provides a command to refresh environment variables in command prompt (cmd).",
     "homepage": "https://chocolatey.org/",
     "license": "Apache-2.0",
