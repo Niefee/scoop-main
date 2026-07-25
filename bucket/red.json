@@ -1,13 +1,13 @@
 {
-    "version": "23jul26",
+    "version": "24jul26",
     "description": "Programming language inspired by Rebol.",
     "homepage": "https://www.red-lang.org",
     "license": {
         "identifier": "BSD-3-Clause,BSL-1.0",
         "url": "https://github.com/red/red#license"
     },
-    "url": "https://static.red-lang.org/dl/auto/win/red-23jul26-74e2ea690.exe#/red.exe",
-    "hash": "670bb224178fa63cc80360c538f1f9615fb46b10d8bc56c7d32d93f9d7a5fdfc",
+    "url": "https://static.red-lang.org/dl/auto/win/red-24jul26-9901d64bd.exe#/red.exe",
+    "hash": "89e1432350b89b6c8cbd0b797e4a9ad3e643abb168a2e9ff90e52576613c4649",
     "bin": "red.exe",
     "checkver": {
         "url": "https://static.red-lang.org/dl/auto/win/history.html",
