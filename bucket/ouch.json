@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "description": "Painless compression and decompression for your terminal.",
     "homepage": "https://github.com/ouch-org/ouch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ouch-org/ouch/releases/download/0.8.2/ouch-x86_64-pc-windows-msvc.zip",
-            "hash": "0a7d7570d272e7ef563a14fb8cbdddb55d2f532f35ce07544207d4c462dc00ab",
+            "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-x86_64-pc-windows-msvc.zip",
+            "hash": "6383a95987894412d5c9c4172e3d1d87c86aa322acb2b7ffcad42f492abc5dfe",
             "extract_dir": "ouch-x86_64-pc-windows-msvc"
         }
     },
